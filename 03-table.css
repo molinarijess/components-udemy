@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #343a40;
+  display: flex;
+  font-family: "Inter", sans-serif;
+  justify-content: center;
+  line-height: 1;
+}
+
+table {
+  /* border: 1px solid #343a40; */
+  border-collapse: collapse;
+  margin-top: 100px;
+  width: 800px;
+}
+
+th,
+td {
+  /* border: 1px solid #343a40; */
+  padding: 16px 24px;
+  text-align: left;
+}
+
+thead th {
+  background-color: #284387;
+  color: #eaecf3;
+  font-size: 18px;
+  width: 25%;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e9ecef;
+}

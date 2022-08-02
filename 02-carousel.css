@@ -14,7 +14,7 @@ body {
 
 .carousel {
   align-items: center;
-  background-color: #a699d6;
+  background-color: #bd20b3;
   border-radius: 8px;
   display: flex;
   gap: 86px;
@@ -23,15 +23,16 @@ body {
   position: relative;
   width: 800px;
 }
+
 img {
   border-radius: 8px;
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 12px 24px rgba(40, 4, 38, 0.25);
   height: 200px;
   transform: scale(1.5);
 }
 
 .testimonial-text {
-  color: #f4e4ea;
+  color: #fcedfb;
   font-size: 18px;
   font-weight: 500;
   line-height: 1.5;
@@ -41,11 +42,11 @@ img {
 .testimonial-author {
   font-size: 14px;
   margin-bottom: 4px;
-  color: #f6d9f5;
+  color: #f3b8ef;
 }
 
 .testimonial-job {
-  color: #f6d9f5;
+  color: #f3b8ef;
   font-size: 12px;
 }
 
@@ -54,7 +55,7 @@ img {
   background-color: #fff;
   border: none;
   border-radius: 50%;
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 12px 24px rgb(40, 7, 38, 0.25);
   cursor: pointer;
   display: flex;
   height: 40px;
@@ -66,7 +67,7 @@ img {
 
 .btn-icon {
   height: 24px;
-  stroke: #a699d6;
+  stroke: #bd20b3;
   width: 24px;
 }
 
@@ -91,7 +92,7 @@ img {
 
 .dot {
   background-color: #fff;
-  border: 2px solid #a699d6;
+  border: 2px solid #bd20b3;
   border-radius: 50%;
   cursor: pointer;
   height: 12px;
@@ -99,5 +100,5 @@ img {
 }
 
 .dot--fill {
-  background-color: #a699d6;
+  background-color: #bd20b3;
 }
